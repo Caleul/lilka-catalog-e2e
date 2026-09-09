@@ -1,0 +1,39 @@
+{
+  "manifestVersion": "1.0",
+  "type": "theme",
+  "name": "Catalog E2E Theme",
+  "description": "Synthetic theme updated accent for catalog lifecycle validation.",
+  "semver": "1.0.1",
+  "modeHint": "dark",
+  "tokens": {
+    "--lk-bg": "#282a36",
+    "--lk-bg-2": "#2c2e3b",
+    "--lk-bg-3": "#303241",
+    "--lk-panel": "#303241",
+    "--lk-border": "#44475a",
+    "--lk-border-strong": "#646775",
+    "--lk-divider": "#3c3f50",
+    "--lk-fg": "#f8f8f2",
+    "--lk-fg-2": "#cacbc9",
+    "--lk-fg-3": "#a1a1a3",
+    "--lk-fg-4": "#7f8185",
+    "--lk-accent": "#22cc88",
+    "--lk-accent-2": "#40d297",
+    "--lk-accent-soft": "#274e48",
+    "--lk-accent-ring": "#266152",
+    "--lk-ok": "#50fa7b",
+    "--lk-ok-soft": "#2f4f42",
+    "--lk-run": "#f1fa8c",
+    "--lk-run-soft": "#4c4f45",
+    "--lk-err": "#ff5555",
+    "--lk-err-soft": "#4f323c",
+    "--lk-info": "#8be9fd",
+    "--lk-info-soft": "#3a4c5a"
+  },
+  "preview": {
+    "background": "#282a36",
+    "foreground": "#f8f8f2",
+    "accent": "#22cc88"
+  },
+  "version": "1.0.1"
+}
