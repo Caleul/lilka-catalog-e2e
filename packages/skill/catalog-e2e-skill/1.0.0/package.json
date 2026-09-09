@@ -1,0 +1,23 @@
+{
+  "manifestVersion": "1.0",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "content": "---\nname: catalog-e2e-skill\ndescription: Synthetic catalog lifecycle fixture.\n---\n\n# Catalog skill\nWhen explicitly requested, reply CATALOG_SKILL_OK.\n"
+    },
+    {
+      "path": "manifest.json",
+      "content": "{\n  \"name\": \"Catalog E2E Skill\",\n  \"description\": \"Synthetic instruction fixture for catalog lifecycle\",\n  \"scripts\": [],\n  \"version\": \"1.0.0\"\n}\n"
+    },
+    {
+      "path": "references/guide.md",
+      "content": "CATALOG_REFERENCE_OK\n"
+    }
+  ],
+  "scripts": [],
+  "type": "skill",
+  "name": "Catalog E2E Skill",
+  "description": "Synthetic skill for catalog lifecycle validation.",
+  "version": "1.0.0",
+  "semver": "1.0.0"
+}
