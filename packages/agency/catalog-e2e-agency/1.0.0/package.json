@@ -1,0 +1,65 @@
+{
+  "manifestVersion": "2.0",
+  "agency": {
+    "name": "Catalog E2E Agency",
+    "description": "Synthetic workflow for catalog lifecycle",
+    "outputFormat": "md",
+    "entryStepRef": "Write marker",
+    "steps": [
+      {
+        "name": "Write marker",
+        "description": "Return the synthetic catalog marker.",
+        "stepKind": "normal",
+        "maxRetries": 1,
+        "numberOfReexecutions": null,
+        "nextStepRefs": [
+          "Completed"
+        ],
+        "agentRef": "Catalog E2E Writer",
+        "parallelChildren": []
+      },
+      {
+        "name": "Completed",
+        "description": "Agency terminal step. The last work step completes the task with send_task targeting this step and the required label: cancelado, concluído, or falha.",
+        "stepKind": "final",
+        "maxRetries": 1,
+        "numberOfReexecutions": null,
+        "nextStepRefs": [],
+        "agentRef": null,
+        "parallelChildren": []
+      },
+      {
+        "name": "Failed",
+        "description": "Agency automatic failure step. The task is routed here when an agent does not use send_task to indicate the next step.",
+        "stepKind": "fail",
+        "maxRetries": 1,
+        "numberOfReexecutions": null,
+        "nextStepRefs": [],
+        "agentRef": null,
+        "parallelChildren": []
+      }
+    ]
+  },
+  "agents": [
+    {
+      "name": "Catalog E2E Writer",
+      "description": "Synthetic catalog lifecycle writer",
+      "systemPrompt": "Return CATALOG_WRITER_OK. Synthetic fixture.",
+      "temperature": null,
+      "topP": null,
+      "presencePenalty": null,
+      "frequencyPenalty": null,
+      "toolRefs": [],
+      "modelPolicy": {
+        "requirements": {
+          "supportsTools": false
+        }
+      }
+    }
+  ],
+  "type": "agency",
+  "name": "Catalog E2E Agency",
+  "description": "Synthetic workflow for catalog lifecycle validation.",
+  "version": "1.0.0",
+  "semver": "1.0.0"
+}
