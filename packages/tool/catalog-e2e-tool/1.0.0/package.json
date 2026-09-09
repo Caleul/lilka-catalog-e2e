@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "type": "tool",
+  "ref": "catalog-e2e/http-check",
+  "name": "Catalog E2E Tool",
+  "runtimeName": "catalog_e2e_http_check",
+  "description": "Synthetic HTTP tool for catalog lifecycle validation.",
+  "version": "1.0.0",
+  "inputSchema": {
+    "type": "object",
+    "properties": {}
+  },
+  "outputSchema": null,
+  "executor": {
+    "type": "http",
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/Caleul/lilka-catalog-e2e/main/README.md",
+    "headers": {},
+    "query": {},
+    "responseType": "text",
+    "allowRedirects": false,
+    "maxRedirects": 3
+  },
+  "permissions": {
+    "network": {
+      "hosts": [
+        "raw.githubusercontent.com"
+      ],
+      "protocols": [
+        "https"
+      ],
+      "methods": [
+        "GET"
+      ],
+      "allowRedirects": false,
+      "allowPrivate": false
+    },
+    "filesystem": "none",
+    "subprocess": false,
+    "secrets": [],
+    "limits": {
+      "timeoutMs": 30000,
+      "memoryMiB": 256,
+      "maxInputBytes": 1048576,
+      "maxOutputBytes": 1048576,
+      "maxConcurrency": 1
+    }
+  },
+  "compatibility": {
+    "platforms": [
+      "darwin",
+      "linux",
+      "win32"
+    ],
+    "minLilkaVersion": null,
+    "enforcement": {}
+  },
+  "publisher": null,
+  "source": {
+    "type": "local"
+  }
+}
