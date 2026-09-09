@@ -1,0 +1,27 @@
+{
+  "manifestVersion": "1.0",
+  "entrypoint": {
+    "kind": "agent",
+    "name": "Catalog E2E Writer"
+  },
+  "agent": {
+    "name": "Catalog E2E Writer",
+    "description": "Synthetic catalog lifecycle writer",
+    "systemPrompt": "Return CATALOG_WRITER_OK. Synthetic fixture.",
+    "temperature": null,
+    "topP": null,
+    "presencePenalty": null,
+    "frequencyPenalty": null,
+    "toolRefs": [],
+    "modelPolicy": {
+      "requirements": {
+        "supportsTools": false
+      }
+    }
+  },
+  "type": "agent",
+  "name": "Catalog E2E Writer",
+  "description": "Synthetic writer for catalog lifecycle validation.",
+  "version": "1.0.0",
+  "semver": "1.0.0"
+}
