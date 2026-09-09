@@ -1,0 +1,65 @@
+{
+  "manifestVersion": "1.0",
+  "type": "iconTheme",
+  "name": "Catalog E2E Icons",
+  "description": "Synthetic icon catalog lifecycle fixture.",
+  "semver": "1.0.0",
+  "fileIcons": {},
+  "folderIcons": {},
+  "assets": {},
+  "definition": {
+    "iconDefinitions": {
+      "file": {
+        "iconPath": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cGF0aCBmaWxsPSIjZjhmOGYyIiBkPSJNMTYgNmgyM2w5IDl2NDNIMTZ6Ii8+PHBhdGggZmlsbD0iI2Q2ZDZkMCIgZD0iTTM5IDZ2MTFoOSIvPjwvc3ZnPg=="
+      },
+      "folder": {
+        "iconPath": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cGF0aCBmaWxsPSIjYmQ5M2Y5IiBkPSJNNiAxNmE2IDYgMCAwIDEgNi02aDE1bDYgNmgxOWE2IDYgMCAwIDEgNiA2djNINnoiLz48cGF0aCBmaWxsPSIjOGJlOWZkIiBkPSJNNiAyNGg1MnYyNWE2IDYgMCAwIDEtNiA2SDEyYTYgNiAwIDAgMS02LTZ6Ii8+PC9zdmc+"
+      },
+      "folderOpen": {
+        "iconPath": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cGF0aCBmaWxsPSIjYmQ5M2Y5IiBkPSJNNiAxNmE2IDYgMCAwIDEgNi02aDE1bDYgNmgxOWE2IDYgMCAwIDEgNiA2djNINnoiLz48cGF0aCBmaWxsPSIjOGJlOWZkIiBkPSJNNiAyNGg1MnYyNWE2IDYgMCAwIDEtNiA2SDEyYTYgNiAwIDAgMS02LTZ6Ii8+PC9zdmc+"
+      },
+      "typescript": {
+        "iconPath": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cGF0aCBmaWxsPSIjMzE3OGM2IiBkPSJNOCA4aDQ4djQ4SDh6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE4IDI1aDI1djZoLTl2MjFoLTdWMzFoLTl6Ii8+PC9zdmc+"
+      },
+      "json": {
+        "iconPath": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cGF0aCBmaWxsPSIjZjFmYThjIiBkPSJNMTYgNmgyNGw4IDh2NDRIMTZ6Ii8+PHBhdGggZmlsbD0iIzI4MmEzNiIgZD0iTTI1IDQyYy00IDAtNy0zLTctOHMzLTggNy04djVjLTEgMC0yIDEtMiAzczEgMyAyIDN6bTE0IDB2LTVjMSAwIDItMSAyLTNzLTEtMy0yLTN2LTVjNCAwIDcgMyA3IDhzLTMgOC03IDh6Ii8+PC9zdmc+"
+      },
+      "markdown": {
+        "iconPath": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cGF0aCBmaWxsPSIjOGJlOWZkIiBkPSJNOCAxMmg0OHY0MEg4eiIvPjxwYXRoIGZpbGw9IiMyODJhMzYiIGQ9Ik0xNiA0MFYyNGg2bDUgNiA1LTZoNnYxNmgtNnYtOGwtNSA2LTUtNnY4em0yOCAwIDgtOGgtNXYtOGgtNnY4aC01eiIvPjwvc3ZnPg=="
+      }
+    },
+    "file": "file",
+    "folder": "folder",
+    "folderExpanded": "folderOpen",
+    "fileExtensions": {
+      "ts": "typescript",
+      "tsx": "typescript",
+      "json": "json",
+      "md": "markdown",
+      "mdx": "markdown"
+    },
+    "fileNames": {
+      "package.json": "json",
+      "tsconfig.json": "json"
+    },
+    "folderNames": {
+      "src": "folder",
+      "test": "folder",
+      "tests": "folder"
+    },
+    "folderNamesExpanded": {},
+    "languageIds": {
+      "typescript": "typescript",
+      "typescriptreact": "typescript",
+      "json": "json",
+      "markdown": "markdown"
+    },
+    "fonts": []
+  },
+  "fallback": {
+    "file": "File",
+    "folder": "Folder",
+    "folderOpen": "Folder"
+  },
+  "version": "1.0.0"
+}
